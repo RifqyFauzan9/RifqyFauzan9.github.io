@@ -435,7 +435,7 @@ span{
         width: 365px;
     }
     .home-content{
-        margin-left: 5rem;
+        margin-left: 15rem;
     }
     .home-content h1{
         font-size: 25px;
@@ -465,7 +465,7 @@ span{
     }
     .about-content p{
         width: 280px;
-        margin-left: -2rem;
+        margin-left: -4rem;
         text-align: justify;
     }
     .about-content .btn{
@@ -473,7 +473,7 @@ span{
     }
     .about-img img{
         width: 250px;
-        margin-left: 5rem;
+        margin-left: 7rem;
         margin-top: 2rem;
     }
     .services h2{
@@ -481,14 +481,14 @@ span{
     }
     .sevices-container{
         width: 280px;
-        text-align: center;
+        margin-left: 5rem;
     }
     .portofolio h2{
         text-align: center;
     }
     .portofolio .portofolio-box{
         width: 280px;
-        text-align: center;
+        margin-left: 5rem;
     }
     .contact{
         width: 365px;
