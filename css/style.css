@@ -435,8 +435,7 @@ span{
         width: 365px;
     }
     .home-content{
-        margin-left: 20rem;
-        margin-top: -20rem;
+        text-align: center;
     }
     .home-content h1{
         font-size: 25px;
@@ -456,35 +455,35 @@ span{
     }
     .home-img img{
         width: 250px;
-        margin-left: -5rem;
+        text-align: center;
     }
     .about-content h2{
-        margin-left: -4rem;
+        text-align: center;
     }
     .about-content h3{
-        margin-left: -4rem;
+       text-align: center;
     }
     .about-content p{
         width: 265px;
-        margin-left: -5rem;
+        text-align: center;
         text-align: justify;
     }
     .about-content .btn{
-        margin-left: -4rem;
+        text-align: center;
     }
     .about-img img{
         width: 250px;
-        margin-left: 5rem;
+       text-align: center;
         margin-top: 2rem;
     }
     .services h2{
-        margin-left: -4rem;
+        text-align: center;
     }
     .sevices-container{
         width: 260px;
     }
     .portofolio h2{
-        margin-left: -4rem;
+        text-align: center;
     }
     .portofolio .portofolio-box{
         width: 260px;
@@ -493,11 +492,11 @@ span{
         width: 365px;
     }
     .contact h2{
-        margin-left: -4rem;
+        text-align: center;
     }
     #reset{
         width: 260px;
-        margin-left: -1px;
+       text-align: center;
     }
     form p{
         font-size: 6px;
@@ -511,9 +510,9 @@ span{
     }
     .footer-text p{
         font-size: 10px;
-        margin-left: -5rem;
+       text-align: center;
     }
     .footer-iconTop{
-        margin-left: -4rem;
+        text-align: center;
     }
 }
