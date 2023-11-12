@@ -473,7 +473,7 @@ span{
     }
     .about-img img{
         width: 250px;
-        margin-left: -5rem;
+        margin-left: -2rem;
         margin-top: 2rem;
     }
     .services h2{
@@ -481,14 +481,14 @@ span{
     }
     .sevices-container{
         width: 300px;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .portofolio h2{
         text-align: center;
     }
     .portofolio .portofolio-box{
         width: 300px;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .contact{
         width: 365px;
