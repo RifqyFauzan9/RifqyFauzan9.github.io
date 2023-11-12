@@ -426,13 +426,13 @@ span{
 }
 @media (max-width: 365px){
     html{
-        width: 320px;
+        width: 365px;
     }
     .header{
-        width: 320px;
+        width: 365px;
     }
     .home{
-        width: 320px;
+        width: 365px;
     }
     .home-content{
         margin-left: 20rem;
@@ -490,7 +490,7 @@ span{
         width: 260px;
     }
     .contact{
-        width: 320px;
+        width: 365px;
     }
     .contact h2{
         margin-left: -4rem;
