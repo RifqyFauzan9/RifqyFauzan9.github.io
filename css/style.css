@@ -455,7 +455,7 @@ span{
     }
     .home-img img{
         width: 250px;
-        text-align: center;
+        margin-left: -10rem;
     }
     .about-content h2{
         margin-left: -4rem;
@@ -469,26 +469,26 @@ span{
         text-align: justify;
     }
     .about-content .btn{
-        text-align: center;
+        margin-left: -5rem;
     }
     .about-img img{
         width: 250px;
-        margin-left: 7rem;
+        margin-left: -5rem;
         margin-top: 2rem;
     }
     .services h2{
         text-align: center;
     }
     .sevices-container{
-        width: 280px;
-        margin-left: 5rem;
+        width: 300px;
+        margin-left: 3rem;
     }
     .portofolio h2{
         text-align: center;
     }
     .portofolio .portofolio-box{
-        width: 280px;
-        margin-left: 5rem;
+        width: 300px;
+        margin-left: 3rem;
     }
     .contact{
         width: 365px;
