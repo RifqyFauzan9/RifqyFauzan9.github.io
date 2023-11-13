@@ -48,6 +48,7 @@ html {
 
 .loading-screen {
     display: flex;
+    font-size: 10rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -61,9 +62,6 @@ html {
   }
   
   .loader {
-    border: 8px solid #3498db; /* Choose your loader color */
-    border-radius: 50%;
-    border-top: 8px solid #f8f9fa; /* Match your background color */
     width: 50px;
     height: 50px;
     animation: spin 1s linear infinite;
