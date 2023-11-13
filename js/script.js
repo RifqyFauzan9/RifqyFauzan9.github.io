@@ -98,3 +98,13 @@ let currentIndex = 0;
   function nextSlide() {
     showSlide(currentIndex + 1);
   }
+  document.addEventListener("DOMContentLoaded", function() {
+    // Simulate loading time
+    setTimeout(function() {
+      // Hide the loading screen
+      document.getElementById("loadingScreen").style.display = "none";
+  
+      // Show the content
+      document.querySelector(".content").style.display = "block";
+    }, 3000); // Adjust the duration (in milliseconds) as needed
+  });

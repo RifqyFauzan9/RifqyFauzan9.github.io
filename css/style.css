@@ -46,6 +46,38 @@ html {
     height: 100vh;
 }
 
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color); /* Choose your background color */
+    z-index: 1000;
+  }
+  
+  .loader {
+    border: 8px solid #3498db; /* Choose your loader color */
+    border-radius: 50%;
+    border-top: 8px solid #f8f9fa; /* Match your background color */
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .content {
+    display: none; /* Hide content initially */
+    padding: 20px;
+  }
 section {
     min-height: 100vh;
     padding: 8rem 10%;
@@ -513,9 +545,9 @@ div.bottom-gradient {
 }
 
 .contact form .button-input-box .btn[type=reset] {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-2);
     border: .25rem solid var(--bg-color-2);
-    color: var(--bg-color-2);
+    color: var(--bg-color);
 }
 
 .contact form .button-input-box .btn[type=reset]:hover {
@@ -536,7 +568,7 @@ div.bottom-gradient {
     align-items: center;
     padding: 2rem 10%;
     flex-wrap: wrap;
-    background: #000000;
+    background: var(--bg-color-2);
 }
 
 .footer .footer-text {
