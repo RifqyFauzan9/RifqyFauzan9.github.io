@@ -152,7 +152,7 @@ nav.nav a{
     position: relative;
     font-size: 1.75rem;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin-left: 3rem;
     font-weight: 500;
 }
 
@@ -475,7 +475,7 @@ div.bottom-gradient {
     padding: 1rem;
     font-size: 1.5rem;
     color: var(--text-color);
-    background: var(--bg-color);
+    background: var(--bg-color-2);
     border-radius: 0.5em;
     margin: 0.5rem;
 }
@@ -575,6 +575,46 @@ div.bottom-gradient {
 .berhasil .btn{
     margin-top: 1rem;
 }
+.slider-container {
+    margin-left: 19rem;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .slide img{
+    width: 100%;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #prev {
+    left: 0;
+  }
+
+  #next {
+    right: 0;
+  }
 /* Responsive */
 
 @media (max-width: 1200px) {
@@ -694,6 +734,10 @@ div.bottom-gradient {
     }
     .portofolio .portofolio-container {
         grid-template-columns: repeat(2,1fr);
+    }
+    .slider-container{
+        margin-left: 11px;
+        width: 45rem;
     }
 }
 
