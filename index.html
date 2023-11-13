@@ -10,10 +10,6 @@
     
 </head>
 <body>
-    <div class="loading-screen" id="loadingScreen">
-        <div class="loader"></div>
-        RIFQY FAUZAN
-      </div>
         <!-- Header -->
         <header>
             <div class="header">
@@ -25,7 +21,6 @@
                     <a href="#services">Services</a>
                     <a href="#portofolio">Portofolio</a>
                     <a href="#certificate">Certificate</a>
-                    <a href="#experience">My Experience</a>
                     <a href="#contact">Contact</a>
                 </nav>
             </div>
@@ -43,6 +38,7 @@
                     <a href="https://github.com/rifqyfauzan9" class="bx bxl-github"></a>
                     <a href="https://www.youtube.com/channel/UCKGaO0ofYIDfWIlMnMg-Rmg" class="bx bxl-youtube"></a>
                     <a href="https://www.instagram.com/rifqyfauzan._/" class="bx bxl-instagram-alt"></a>
+                    <a href="tel:+6289518853275" class="bx bxl-whatsapp"></a>
                 </div>
                 <a href="https://resume.io/r/Jjvk8MERG" class="btn">Download CV</a>
             </div>
@@ -130,41 +126,23 @@
                 </div>
             </div>
         </section>
-
-        <!-- slide -->
-        <section class="portofolio" id="experience">
-            <h2 class="section-heading">My <span>Experience</span></h2>
-            <div class="slider-container">
-                <div class="slides">
-                  <div class="slide"><img src="img/TOTD.png" alt="Slide 1"></div>
-                  <div class="slide"><img src="img/portfolio2.jpg" alt="Slide 2"></div>
-                  <div class="slide"><img src="img/portfolio3.jpg" alt="Slide 3"></div>
-                </div>
-                <button id="prev" onclick="prevSlide()">&#10094;</button>
-                <button id="next" onclick="nextSlide()">&#10095;</button>
-              </div>
-        </section>
         <!-- Contact -->
-        <section class="contact" id="contact">
+        <section style="background-color: #2f2f3f;" class="contact" id="contact">
             <h2 class="section-heading">Contact <span>Me</span></h2>
-            <form action="">
-                <div class="input-box">
-                    <input type="text" name="name" id="name" placeholder="Name">
-                    <input type="email" name="email" id="email" placeholder="Email address">
+            <div class="about-col-2">
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('abilities')">My Contact</p>
                 </div>
-                <div class="input-box">
-                    <input type="number" name="number" id="number" placeholder="Number">
-                    <input type="text" name="subject" id="subject" placeholder="Subject">
+
+                <div class="tab-contents active-tab" id="abilities">
+                    <ul>
+                        <li><span>WhatsApp</span><br><p class="nomor"><a href="tel:+6289518853275" class="bx bxl-whatsapp"></a>+62-895-1885-3275</p></li>
+                        <li><span>Instagram</span><br><p class="nomor"><a href="https://www.instagram.com/rifqyfauzan._/" class="bx bxl-instagram-alt dua"></a>rifqyfauzan._</p></li>
+                        <li><span>Youtube</span><br><p class="nomor"><a href="https://www.youtube.com/channel/UCKGaO0ofYIDfWIlMnMg-Rmg" class="bx bxl-youtube tiga"></a>Rifki Faruzan</p></li>
+                    </ul>
                 </div>
-                <textarea name="message" id="message" placeholder="Message"></textarea>
-                <div class="button-input-box">
-                    <a href="berhasil.html" class="btn">Submit</a>
-                    <p>By submitting this form, you agree to our form's <span style="color: blue">Privacy Policy</span> and <span style="color: blue;">Terms of Service</span> .</p>
-                    <input class="btn" type="reset">
-                </div>
-            </form>
+            </div>
         </section>
-        <div class="bottom-gradient"></div>
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-text">

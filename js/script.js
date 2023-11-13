@@ -74,37 +74,3 @@ const typed = new Typed('#im-a', {
     typeDelay: 500,
     loop: true
 });
-let currentIndex = 0;
-  const totalSlides = document.querySelectorAll('.slide').length;
-
-  function showSlide(index) {
-    const slides = document.querySelector('.slides');
-    if (index >= totalSlides) {
-      currentIndex = 0;
-    } else if (index < 0) {
-      currentIndex = totalSlides - 1;
-    } else {
-      currentIndex = index;
-    }
-
-    const displacement = -currentIndex * 100 + '%';
-    slides.style.transform = 'translateX(' + displacement + ')';
-  }
-
-  function prevSlide() {
-    showSlide(currentIndex - 1);
-  }
-
-  function nextSlide() {
-    showSlide(currentIndex + 1);
-  }
-  document.addEventListener("DOMContentLoaded", function() {
-    // Simulate loading time
-    setTimeout(function() {
-      // Hide the loading screen
-      document.getElementById("loadingScreen").style.display = "none";
-  
-      // Show the content
-      document.querySelector(".content").style.display = "block";
-    }, 3000); // Adjust the duration (in milliseconds) as needed
-  });
