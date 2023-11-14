@@ -146,12 +146,9 @@ header .header div.bx.bx-list-ul#menu-icon {
     color: var(--text-color);
     display: none;
 }
-.nav{
-    margin-right: 10rem;
-}
 nav.nav a{
     position: relative;
-    font-size: 1.40rem;
+    font-size: 1.60rem;
     color: var(--text-color);
     margin-left: 5rem;
     font-weight: 500;
