@@ -525,11 +525,6 @@ div.bottom-gradient {
     transform: scale(1.1);
     border: 2px solid var(--main-color);
 }
-
-.tab-contents ul li .bx.dua{
-}
-.tab-contents ul li .bx.tiga{
-}
 .nomor{
     font-size: 15px;
 }
