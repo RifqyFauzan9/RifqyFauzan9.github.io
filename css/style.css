@@ -566,10 +566,6 @@ div.bottom-gradient {
     margin: 0;
 }
 
-.contact form .input-box input[type=number] {
-    -moz-appearance: textfield;
-}
-
 .contact form textarea {
     width: calc(100% - 1rem);
     margin: 0.5rem 0.5rem 1rem;
