@@ -274,19 +274,18 @@ div.bottom-gradient {
 
 .btn {
     display: inline-block;
-    padding: 0.3125em 0.625em;
+    padding: 0.7000em 0.625em;
     background: var(--main-color);
     border-radius: 0.5em;
     box-shadow: none;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 620;
     color: var(--bg-color);
     border: .25rem solid var(--main-color);
     cursor: pointer;
 }
 
 .btn:hover {
-    box-shadow: 0 0 1rem var(--main-color);
     background: transparent;
     color: var(--main-color);
     transform: scale(1.1);
