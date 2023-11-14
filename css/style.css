@@ -241,7 +241,7 @@ div.bottom-gradient {
 
 .home .home-content h3 span {
     color: #6610f2;
-    font-family: 'Source Code Pro', Poppins, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .home .home-content p {
@@ -256,6 +256,7 @@ div.bottom-gradient {
     width: 4rem;
     height: 4rem;
     border: .25rem solid #6610f2;
+    border: transparent;
     border-radius: 50%;
     color: var(--text-color);
     font-size: 2.5rem;
@@ -266,7 +267,6 @@ div.bottom-gradient {
 .social-medias a:hover {
     border: .25rem solid #6610f2;
     color: #6610f2;
-    background: transparent;
     transform: scale(1.1);
 }
 
