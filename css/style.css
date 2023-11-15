@@ -516,9 +516,7 @@ div.bottom-gradient {
     border: 2px solid var(--bg-color-2) ;
 }
 .tab-contents ul li .bx:hover{
-    color: var(--bg-color);
-    transform: scale(1.1);
-    border: 2px solid var(--bg-color);
+    color: #6610f2;
 }
 .nomor{
     font-size: 15px;
