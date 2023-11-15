@@ -511,8 +511,7 @@ div.bottom-gradient {
     padding: 1rem;
     border-radius: 2rem;
     color: var(--bg-color);
-    font-size: 20px;
-    margin-right: 8px;
+    font-size: 25px;
     border: 2px solid var(--bg-color-2) ;
 }
 .tab-contents ul li .bx:hover{
