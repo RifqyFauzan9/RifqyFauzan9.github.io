@@ -508,16 +508,14 @@ div.bottom-gradient {
     display: block;
 }
 .tab-contents ul li .bx{
-    background: var(--text-color);
     padding: 1rem;
     border-radius: 2rem;
-    color: var(--bg-color-2);
+    color: var(--bg-color);
     font-size: 20px;
     margin-right: 8px;
-    border: 2px solid var(--text-color);
+    border: 2px solid var(--bg-color-2) ;
 }
 .tab-contents ul li .bx:hover{
-    background: transparent;
     color: var(--bg-color);
     transform: scale(1.1);
     border: 2px solid var(--bg-color);
