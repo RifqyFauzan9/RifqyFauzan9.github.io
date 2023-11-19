@@ -337,8 +337,26 @@ div.bottom-gradient {
     gap: 2rem;
 }
 
-.services .services-container .service-box {
-    flex: 1 1 3rem;
+.services .services-container .service-box-1 {
+    flex: 1;
+    background: var(--bg-color-2);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.25rem solid #6610f2;
+}
+
+.services .services-container .service-box-2 {
+    flex: 1;
+    background: var(--bg-color-2);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.25rem solid #6610f2;
+}
+
+.services .services-container .service-box-3 {
+    flex: 1;
     background: var(--bg-color-2);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
