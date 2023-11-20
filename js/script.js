@@ -1,76 +1,54 @@
-// Toggle Menu
-let menuIcon = document.querySelector('#menu-icon');
-let nav = document.querySelector('.nav');
-let sections = document.querySelector('section');
-let body = document.querySelector('body');
+// toggle icon navbar
+let menuIcon =document.querySelector('#menu-icon');
+let navbar =document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
-    nav.classList.toggle('active');
-}
+    navbar.classList.toggle('active');
+};
 
-// nav.addEventListener("click", function(){
-//     menuIcon.classList.remove('bx-x');
-//     nav.classList.remove("active");
-// });
+// scrolll section active link
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
 
-// sections.array.forEach(section => {
-//     section.addEventListener("hover", function(){
-//         menuIcon.classList.remove('bx-x');
-//         nav.classList.remove("active");
-//     });
-// });
+window.onscroll= () => {
+    sections.forEach(sec =>{
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150 ;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
 
-// sections.addEventListener("click", function(){
-//     menuIcon.classList.remove('bx-x');
-//     nav.classList.remove("active");
-// });
+        if(top >= offset && top < offset + height){
+            navLinks.forEach(links =>{
+                links.classList.remove('active'); 
+                document.querySelector('header nav a[href*=' + id +']').classList.add('active');
+            });
+        };
+    });
+    
+    // remove toggle and navbar when scroll
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+};
 
-// This doesn't work, I don't know why
-// window.onscroll = ()=>{
-//     console.log('scrolled');
-//     menuIcon.classList.remove('bx-x');
-//     nav.classList.remove("active");
-// };
+// scroll reveal
+ScrollReveal({ 
+    // reset: true,
+    distance:'80px',
+    duration:2000,
+    delay:200
+});
 
-// // Active Section Detection
-// let navlinks = document.querySelectorAll('header .header nav a');
-// window.onscroll = () => {
-//     menuIcon.classList.remove('bx-x');
-//     nav.classList.remove("active");
-//     sections.forEach(sec => {
-//         let top = window.scrollY;
-//         let offset = sec.offsetTop - 150;
-//         let height = sec.offsetHeight;
-//         let id = sec.getAttribute('id');
-//         console.log(id + ' ( ' + top + ' >= ' + offset + ' && ' + top + ' < ' + offset + ' + ' + height + ' )')
-//         if(top >= offset && top < offset + height) {
-//             navlinks.forEach(links => {
-//                 // console.log(links)
-//                 links.classList.remove('active');
-//                 // console.log(document.querySelector('header nav a[href*=' + id + ']'))
-//                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-//             });
-//         };
-//     });
-// };
+ScrollReveal().reveal('.home-content,.heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img,.services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1,.about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p,.about-content', { origin: 'right' });
 
-// ScrollReveal
-// ScrollReveal({
-//     reset: true,
-//     distance: '80px',
-//     duration: 2000,
-//     delay: 250
-// });
-// ScrollReveal().reveal('.home-content', { origin: 'top' });
-// ScrollReveal().reveal('.home-img', { origin: 'bottom' });
-
-// Typed.js
-const typed = new Typed('#im-a', {
-    strings: ['Front-End Web Developer',  'Graphic Designer', 'Student'],
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 2000,
-    typeDelay: 500,
-    loop: true
+// typed js
+const typed = new Typed('.multiple-text',{
+    strings:['Web Developer','Android Developer','Graphic Designer'],
+    typeSpeed:30,
+    backSpeed:30,
+    backDelay:1000,
+    loop:true
 });
