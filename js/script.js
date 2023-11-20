@@ -25,10 +25,6 @@ window.onscroll= () => {
             });
         };
     });
-    
-    // remove toggle and navbar when scroll
-    menuIcon.classList.remove('bx-x');
-    navbar.classList.remove('active');
 };
 
 // scroll reveal
