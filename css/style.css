@@ -291,6 +291,11 @@ span{
     margin-top:2rem;
     cursor:pointer;
 }
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
 .footer{
     display:flex;
     justify-content:space-between;
