@@ -296,6 +296,12 @@ span{
     display: flex;
     justify-content: space-between;
 }
+.contact form .input input[type=submit] {
+    background-color: rgb(55, 199, 55);
+}
+.contact form .input input[type=reset] {
+    background-color: red;
+}
 .footer{
     display:flex;
     justify-content:space-between;
