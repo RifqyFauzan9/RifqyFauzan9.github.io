@@ -1,6 +1,6 @@
 // toggle icon navbar
-let menuIcon =document.querySelector('#menu-icon');
-let navbar =document.querySelector('.navbar');
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
@@ -11,32 +11,32 @@ menuIcon.onclick = () => {
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
-window.onscroll= () => {
-    sections.forEach(sec =>{
+window.onscroll = () => {
+    sections.forEach(sec => {
         let top = window.scrollY;
-        let offset = sec.offsetTop - 150 ;
+        let offset = sec.offsetTop - 150;
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
 
-        if(top >= offset && top < offset + height){
-            navLinks.forEach(links =>{
-                links.classList.remove('active'); 
-                document.querySelector('header nav a[href*=' + id +']').classList.add('active');
+        if (top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
         };
     });
-    
+
     // remove toggle and navbar when scroll
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
 
 // scroll reveal
-ScrollReveal({ 
+ScrollReveal({
     // reset: true,
-    distance:'80px',
-    duration:2000,
-    delay:200
+    distance: '80px',
+    duration: 2000,
+    delay: 200
 });
 
 ScrollReveal().reveal('.home-content,.heading', { origin: 'top' });
@@ -45,10 +45,10 @@ ScrollReveal().reveal('.home-content h1,.about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p,.about-content', { origin: 'right' });
 
 // typed js
-const typed = new Typed('.multiple-text',{
-    strings:['Web Developer','Android Developer','Graphic Designer'],
-    typeSpeed:30,
-    backSpeed:30,
-    backDelay:1000,
-    loop:true
+const typed = new Typed('.multiple-text', {
+    strings: ['Web Developer', 'Android Developer', 'Graphic Designer'],
+    typeSpeed: 30,
+    backSpeed: 30,
+    backDelay: 1000,
+    loop: true
 });
