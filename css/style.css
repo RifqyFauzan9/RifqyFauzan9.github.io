@@ -507,18 +507,20 @@ span {
         font-size: 50%;
     }
 
+    .home {
+        gap: 1rem;
+    }
+
+    .about {
+        gap: 1rem;
+    }
+
     .contact form .input-box input {
         width: 100%;
     }
 }
 
 @media (max-width: 365px) {
-    .home {
-        gap: 1rem;
-    }
-    .about {
-        gap: 1rem;
-    }
     .home-img img {
         width: 90vw;
     }
