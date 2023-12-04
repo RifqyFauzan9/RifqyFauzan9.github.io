@@ -75,6 +75,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5rem;
 }
 
 .home-content h3 {
@@ -88,6 +89,11 @@ body {
 
 span {
     color: var(--main-color);
+}
+
+.multiple-text::before,
+.multiple-text::after {
+    content: "''";
 }
 
 .home-content h1 {
@@ -154,7 +160,7 @@ span {
     justify-content: center;
     align-items: center;
     background: var(--second-bg-color);
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .about-img {
