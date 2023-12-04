@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 15rem;
 }
 
 .home-content h3 {
@@ -160,7 +160,7 @@ span {
     justify-content: center;
     align-items: center;
     background: var(--second-bg-color);
-    gap: 5rem;
+    gap: 10rem;
 }
 
 .about-img {
@@ -513,6 +513,12 @@ span {
 }
 
 @media (max-width: 365px) {
+    .home {
+        gap: 1rem;
+    }
+    .about {
+        gap: 1rem;
+    }
     .home-img img {
         width: 90vw;
     }
