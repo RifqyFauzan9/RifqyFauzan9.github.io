@@ -1,5 +1,5 @@
 window.onload = function () {
-    var nama = (prompt('Halo siapakah anda? \nUntuk melihat website portfolio rifqy, \nsilahkan masukkan nama anda(gunakan kapital pada huruf awal)'));
+    var nama = (prompt('Halo siapakah anda? \nUntuk melihat website portfolio rifqy, \nsilahkan masukkan nama anda(gunakan kapital pada huruf awal)', 'Faiz'));
     switch (nama) {
         case 'Hardiana':
             alert('Anda ayahanda Rifqy Fauzan!');
