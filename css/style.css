@@ -142,17 +142,23 @@ span {
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    border-radius: 1rem;
+    box-shadow: 0 7px var(--text-color);
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
-    transition: .5s ease;
 }
 
 .btn:hover {
+    opacity: .8;
+}
+
+.btn:active {
+    color: var(--text-color);
     box-shadow: none;
+    position: relative;
+    top: 10px;
 }
 
 .about {
