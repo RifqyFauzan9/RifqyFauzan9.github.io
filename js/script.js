@@ -1,3 +1,24 @@
+window.onload = function () {
+    var nama = (prompt('Halo siapakah anda? \n(gunakan kapital pada huruf awal)'));
+    switch (nama) {
+        case 'Hardiana':
+            alert('Anda ayahanda Rifqy Fauzan!');
+            break;
+        case 'Erliyanti':
+            alert('Anda Ibunda Rifqy Fauzan!');
+            break;
+        case 'Amel':
+            alert('Anda adik Rifqy Fauzan!');
+            break
+        case 'Faiz':
+            alert('Anda kakak rifqy fauzan!');
+            break;
+        default:
+            alert('anda siswa/siswi IDN');
+            break
+
+    }
+}
 // toggle icon navbar
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
