@@ -11,29 +11,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- link custom css -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script type="text/javascript">
-        window.onload = function () {
-    var nama = (prompt('Halo siapakah anda? \nUntuk melihat website portfolio rifqy, \nsilahkan masukkan nama anda(gunakan kapital pada huruf awal)', 'Faiz'));
-    switch (nama) {
-        case 'Hardiana':
-            alert('Anda ayahanda Rifqy Fauzan!');
-            break;
-        case 'Erliyanti':
-            alert('Anda Ibunda Rifqy Fauzan!');
-            break;
-        case 'Amel':
-            alert('Anda adik Rifqy Fauzan!');
-            break
-        case 'Faiz':
-            alert('Anda kakak rifqy fauzan!');
-            break;
-        default:
-            alert('anda siswa/siswi IDN');
-            break
-
-    }
-}
-    </script>
 </head>
 
 <body>
@@ -204,7 +181,7 @@
             <textarea required name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <div class="input">
                 <input type="submit" value="Send Message" class="btn">
-                <input type="reset" value="Reset" class="btn">
+                <input onclick="confirm('Apakah anda yakin ingin me-reset?')" type="reset" value="Reset" class="btn">
             </div>
         </form>
     </section>
