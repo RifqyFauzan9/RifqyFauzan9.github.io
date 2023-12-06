@@ -52,3 +52,10 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
+// onSubmit
+const form = document.getElementById('form');
+form.addEventListener('submit', function (event) {
+    alert('Yeay, anda berhasil submit!');
+    event.preventDefault();
+});
