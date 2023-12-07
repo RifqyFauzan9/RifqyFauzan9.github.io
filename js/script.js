@@ -55,7 +55,21 @@ const typed = new Typed('.multiple-text', {
 
 // onSubmit
 const form = document.getElementById('form');
-form.addEventListener('submit', function (event) {
-    alert('Yeay, anda berhasil submit!');
-    event.preventDefault();
+form.addEventListener('submit', function (konfirm) {
+    let konfirmasi = confirm('Apakah anda yakin ingin mensubmit?');
+    if (konfirmasi == true) {
+        alert('Yeay, Anda berhasil submit');
+    } else {
+        alert('silahkan bisa di check lagi...');
+        konfirm.preventDefault();
+    }
 });
+// onReset
+form.addEventListener('reset', function (con) {
+    const kon = confirm('apakah anda yakin ingin me-reset?');
+    if(kon == true) {
+        true
+    }else{
+        con.preventDefault();
+    }
+})
