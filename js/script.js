@@ -58,7 +58,7 @@ const form = document.getElementById('form');
 form.addEventListener('submit', function (konfirm) {
     let konfirmasi = confirm('Apakah anda yakin ingin mensubmit?');
     if (konfirmasi == true) {
-        alert('Yeay, Anda berhasil submit');
+        alert('Pesan anda berhasil dikirim...');
     } else {
         alert('silahkan bisa di check lagi...');
         konfirm.preventDefault();
