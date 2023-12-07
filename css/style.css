@@ -260,6 +260,7 @@ span {
     overflow: hidden;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
+    height: 100%;
 }
 
 .portfolio-box img {
