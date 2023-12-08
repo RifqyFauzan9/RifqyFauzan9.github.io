@@ -67,9 +67,9 @@ form.addEventListener('submit', function (konfirm) {
 // onReset
 form.addEventListener('reset', function (con) {
     const kon = confirm('apakah anda yakin ingin me-reset?');
-    if(kon == true) {
+    if (kon == true) {
         true
-    }else{
+    } else {
         con.preventDefault();
     }
 })
