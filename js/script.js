@@ -64,12 +64,3 @@ form.addEventListener('submit', function (konfirm) {
         konfirm.preventDefault();
     }
 });
-// onReset
-form.addEventListener('reset', function (con) {
-    const kon = confirm('apakah anda yakin ingin me-reset?');
-    if (kon == true) {
-        true
-    } else {
-        con.preventDefault();
-    }
-})
